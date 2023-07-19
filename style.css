@@ -230,10 +230,15 @@ section {
     .goat-wrap,
     .we-gamer-wrap,
     .four-pic-wrap,
-    .play-instantly-wrap, .btn-pic-text-wrap {
+    .play-instantly-wrap, .btn-pic-text-wrap, .footer-story>nav>ul {
         display: flex;
         flex-direction: column;
 
+    }
+    .footer-story>nav>ul{
+        display: flex;
+        
+        align-items: center;
     }
     .btn-pic-text{
         margin-bottom: 20px;
