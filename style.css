@@ -1,14 +1,15 @@
-
-.header-main{
+.header-main {
     box-shadow: 10px 10px 5px black;
     margin-bottom: 40px;
 }
-.first-btn{
+
+.first-btn {
     border: none;
     border-radius: 10px;
     padding: 6px;
 
 }
+
 .gamer-wrap {
     display: flex;
     justify-content: space-around;
@@ -39,32 +40,40 @@
 }
 
 /* -------section 2  goat-------- */
-section{
+section {
     margin-bottom: 60px;
 }
+
 .goat-wrap {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.fa{
+
+.fa {
     color: red;
 }
-.goat-backgroung{
+
+.goat-backgroung {
     background-color: rgb(241, 234, 241);
     padding: 30px;
 }
-.goat-btn1, .goat-btn2, .right-side-button{
+
+.goat-btn1,
+.goat-btn2,
+.right-side-button {
     background-color: rgb(245, 55, 156);
     border: none;
     border-radius: 10px;
     padding: 5px 15px;
     color: white;
 }
-.goat-btn2{
+
+.goat-btn2 {
     background-color: rgb(30, 220, 220);
     margin-left: 5px;
 }
+
 .goat-color {
     color: purple;
     font-family: 'Kanit', sans-serif;
@@ -80,40 +89,51 @@ section{
 
 /* ---------section 2i we are gamer------ */
 
-.we-gamer-wrap{
+.we-gamer-wrap {
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
 }
-.we-gamer-img{
+
+.we-gamer-img {
     width: 500px;
 }
 
-.gamer-text{
+.gamer-text {
     text-align: right;
 }
-.gamer-color{
+
+.gamer-color {
     color: rgb(191, 11, 191);
     font-family: 'Kanit', sans-serif;
     font-size: larger;
 }
-.right-side-button-div{
+
+.right-side-button-div {
     text-align: right;
 }
 
 
 /* -----------------section 3 online game */
 
-.onlne-text{
+.onlne-text {
     text-align: center;
 }
 
-.four-pic{
+.four-pic {
     width: 150px;
 }
-.four-pic-wrap{
+
+.four-pic:hover {
+    /* background-image: url("./images/play\ button.png"); */
+    opacity: .09;
+
+
+}
+
+.four-pic-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,17 +142,18 @@ section{
 /* -----------section 4 play-instantly--------- */
 
 
-.play-instantly-wrap{
+.play-instantly-wrap {
     display: flex;
     gap: 100px;
     justify-content: center;
     align-items: center;
 }
 
-.play-instantly-pic{
+.play-instantly-pic {
     width: 300px;
 }
-.img-relative{
+
+.img-relative {
     width: 100px;
     height: 100px;
     position: relative;
@@ -144,48 +165,88 @@ section{
 
 /* -----------section 5 vutton pic img--- */
 
-.btn-pic-text-main-wrap{
+.btn-pic-text-main-wrap {
     background-color: aliceblue;
 }
-.btn-pic-text-wrap{
+
+.btn-pic-text-wrap {
     display: flex;
     justify-content: center;
 }
-.btn-pic-text{
+
+.btn-pic-text {
     border: none;
     border-radius: 10px;
     margin-right: 10px;
 
 }
-.btn-pic-text:hover{
+
+.btn-pic-text:hover {
     color: red;
     background-color: white;
     border: 2px solid red;
-    
+
 }
-.btn-text{
+
+.btn-text {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
 /* ----------------footer */
-.footer-main{
+.footer-main {
     background-color: black;
 }
-.gamer-footer{
+
+.gamer-footer {
     display: flex;
     justify-content: center;
 }
 
-.footer-story > nav > ul{
+.footer-story>nav>ul {
     display: flex;
     justify-content: center;
     gap: 20px;
     list-style-type: none;
 }
 
-.footer-story > nav > ul > li{
+.footer-story>nav>ul>li {
     color: white;
 }
 
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .gamer-wrap,
+    .gamer,
+    .about-us>ul,
+    .goat-wrap,
+    .we-gamer-wrap,
+    .four-pic-wrap,
+    .play-instantly-wrap, .btn-pic-text-wrap {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .btn-pic-text{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .we-gamer-img, .play-instantly-pic, .img-relative {
+        width: 100%;
+    }
+
+}
+
+}
