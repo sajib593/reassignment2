@@ -1,3 +1,14 @@
+
+.header-main{
+    box-shadow: 10px 10px 5px black;
+    margin-bottom: 40px;
+}
+.first-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+
+}
 .gamer-wrap {
     display: flex;
     justify-content: space-around;
@@ -67,7 +78,7 @@ section{
 }
 
 
-/* ---------section 2 we are gamer------ */
+/* ---------section 2i we are gamer------ */
 
 .we-gamer-wrap{
     display: flex;
@@ -108,7 +119,7 @@ section{
     align-items: center;
 }
 
-/* -----------section 3 play-instantly--------- */
+/* -----------section 4 play-instantly--------- */
 
 
 .play-instantly-wrap{
@@ -120,6 +131,13 @@ section{
 
 .play-instantly-pic{
     width: 300px;
+}
+.img-relative{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 350px;
+    top: 30px;
 }
 
 
