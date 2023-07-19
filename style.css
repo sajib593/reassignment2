@@ -149,3 +149,17 @@ section{
     align-items: center;
     gap: 5px;
 }
+
+/* ----------------footer */
+
+.gamer-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-story > nav > ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
