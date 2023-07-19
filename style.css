@@ -252,6 +252,19 @@ section {
         width: 100%;
     }
 
-}
+    .img-relative {
+        /* width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+    }
 
 }
+
+@media screen and (max-width: 576px) and (max-width: 992px) {
+    
+    }
+  
+}
+
