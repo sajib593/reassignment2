@@ -107,3 +107,17 @@ section{
     align-items: center;
 }
 
+/* -----------section 3 play-instantly--------- */
+
+
+.play-instantly-wrap{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-instantly-pic{
+    width: 300px;
+}
+
