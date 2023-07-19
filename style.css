@@ -230,17 +230,21 @@ section {
     .goat-wrap,
     .we-gamer-wrap,
     .four-pic-wrap,
-    .play-instantly-wrap, .btn-pic-text-wrap, .footer-story>nav>ul {
+    .play-instantly-wrap,
+    .btn-pic-text-wrap,
+    .footer-story>nav>ul {
         display: flex;
         flex-direction: column;
 
     }
-    .footer-story>nav>ul{
+
+    .footer-story>nav>ul {
         display: flex;
-        
+
         align-items: center;
     }
-    .btn-pic-text{
+
+    .btn-pic-text {
         margin-bottom: 20px;
     }
 
@@ -248,7 +252,10 @@ section {
 
 
 @media screen and (max-width: 576px) {
-    .we-gamer-img, .play-instantly-pic, .img-relative {
+
+    .we-gamer-img,
+    .play-instantly-pic,
+    .img-relative {
         width: 100%;
     }
 
@@ -262,9 +269,5 @@ section {
 
 }
 
-@media screen and (max-width: 576px) and (max-width: 992px) {
-    
-    }
-  
-}
+
 
