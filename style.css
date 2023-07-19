@@ -1,0 +1,77 @@
+.gamer-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.gamer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.g-color {
+    color: rgb(236, 59, 89);
+}
+
+.gamer-img {
+    width: 70px;
+    height: 30px;
+}
+
+.about-us>ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+/* -------section 2  goat-------- */
+section{
+    margin-bottom: 10px;
+}
+.goat-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa{
+    color: red;
+}
+.goat-backgroung{
+    background-color: rgb(241, 234, 241);
+    padding: 30px;
+}
+.goat-btn1, .goat-btn2{
+    background-color: rgb(245, 55, 156);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: white;
+}
+.goat-btn2{
+    background-color: rgb(30, 220, 220);
+    margin-left: 5px;
+}
+.goat-color {
+    color: purple;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: larger;
+}
+
+.goat-img {
+    width: 300px;
+}
+
+
+/* ---------section 2 we are gamer------ */
+
+.we-gamer-wrap{
+    display: flex;
+}
+.we-gamer-img{
+    width: 500px;
+}
