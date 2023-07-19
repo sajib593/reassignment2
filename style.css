@@ -121,3 +121,31 @@ section{
     width: 300px;
 }
 
+
+
+/* -----------section 5 vutton pic img--- */
+
+.btn-pic-text-main-wrap{
+    background-color: aliceblue;
+}
+.btn-pic-text-wrap{
+    display: flex;
+    justify-content: center;
+}
+.btn-pic-text{
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.btn-pic-text:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    
+}
+.btn-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
