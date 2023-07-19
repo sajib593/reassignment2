@@ -74,6 +74,7 @@ section{
     gap: 50px;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
 }
 .we-gamer-img{
     width: 500px;
@@ -151,7 +152,9 @@ section{
 }
 
 /* ----------------footer */
-
+.footer-main{
+    background-color: black;
+}
 .gamer-footer{
     display: flex;
     justify-content: center;
@@ -163,3 +166,8 @@ section{
     gap: 20px;
     list-style-type: none;
 }
+
+.footer-story > nav > ul > li{
+    color: white;
+}
+
