@@ -215,6 +215,30 @@ section {
     color: white;
 }
 
+.main-pic-overlay{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: red;
+}
+
+.overlay{
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.overlay h2{
+    text-align: center;
+    color: white;
+}
+.main-pic-overlay:hover .overlay{
+    height: 100%;
+}
 
 
 
